@@ -4,7 +4,7 @@ require_relative './fancy_dance.rb'
 
 class Kid 
  include Dance
-  extend 
+  extend MetaDance
   attr_accessor :name 
   
   def initialize(name)
